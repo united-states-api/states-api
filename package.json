@@ -1,0 +1,26 @@
+{
+  "name": "states-api",
+  "version": "0.0.1",
+  "description": "REST API about states and territories of the United States",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/united-states-api/states-api.git"
+  },
+  "keywords": [
+    "united-states",
+    "api",
+    "states",
+    "territories",
+    "rest"
+  ],
+  "author": "Andrew Starosciak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/united-states-api/states-api/issues"
+  },
+  "homepage": "https://github.com/united-states-api/states-api#readme"
+}
