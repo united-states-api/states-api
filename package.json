@@ -4,6 +4,7 @@
   "description": "REST API about states and territories of the United States",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec 'ts-node' api/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,14 +25,15 @@
   },
   "homepage": "https://github.com/united-states-api/states-api#readme",
   "dependencies": {
-    
-  },
-  "devDependencies": {
-    "@snowpack/plugin-typescript": "1.1.0",
-    "@types/pino": "^6.3.4",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
     "nodemon": "^2.0.6",
     "pino": "^6.7.0",
-    "snowpack": "^2.17.1",
+    "ts-node": "^9.1.1",
     "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/pino": "^6.3.4"
   }
 }
