@@ -1,5 +1,5 @@
 {
-    "include": ["src"],
+    "include": ["api", "generate"],
     "compilerOptions": {
         "module": "ESNext",
         "target": "ESNext",
