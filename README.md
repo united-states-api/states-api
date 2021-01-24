@@ -1,5 +1,9 @@
 # States and Territories of the United States API :earth_americas:
 
+[![All Contributors](https://img.shields.io/badge/build-experimental-orange.svg?style=flat-square)]()
+[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)]()
+
+
 > :classical_building: Basic REST API with State Data
 
 A REST API about details of States and Terrortories of the United States of America using Python 3 and Node.js. <br>
@@ -24,8 +28,8 @@ npm run start
 # What I Learned :books:
 
  - JavaScript
-    - Snowpack
     - Express API
+    - Sharing stdout of python to javascript
  - Python
     - BeautifulSoup
     - Requests
