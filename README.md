@@ -12,7 +12,9 @@ The data was scraped from [United States of America Wikipedia](https://en.wikipe
 
 # Usage :computer:
 
-Provided GET methods for the API.
+Provided GET methods for the API. <br>
+https://states-api.herokuapp.com/api/v1/kentucky
+
 
 # Quick Start :rocket:
 ```
