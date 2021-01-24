@@ -298,6 +298,6 @@ server.get(api + '/wyoming', (_, res) => {
     });
 });
 
-server.listen(port, () => {
+server.listen(process.env.PORT || 3000, () => {
     console.log("port: " + port)
 });
